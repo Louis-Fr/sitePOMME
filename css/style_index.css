@@ -1,0 +1,119 @@
+body {
+    /* text align sert à centrer le texte */
+ /* en héximal il existe 16 millions e couleurs */
+ margin: 10px 0;
+ font : 0.8em "Trebuchet MS", Helvetica, sans-serif;
+ text-align: center;
+ background: #cf9;
+ }
+ 
+ /* ici l'id conteneur il est affecté a une div de la page, la notation div#conteneur ou #conteneur est identique */
+ #conteneur  {
+    
+     margin: 0 auto;
+     width: 770px;
+     border: 2px solid #ab4;
+     background: #fff;
+     text-align: left;
+ } 
+
+h1#header {
+    height: 258px;
+    /* pour le css url */
+    /* background-repeat: no-repeat;
+    background-attachment: ;
+    background-position-x: left;
+    background-position-y: bottom;  */
+    background: url(../img/apple.jpg) no-repeat left bottom;
+}
+
+h1#header a {
+ display: block;
+ width: 400px;
+ height: 70px;
+ background: url(../img/title.gif);
+ /* la position de l'élément <a est relative à son parent */
+ position: relative;
+ left: 350px; 
+ top: 15px;
+ /* indentation négative du texte afin de le masquer pour les visiteurs et de le laisser dans le code pour les robots ou les moteurs de recherche qui indexent le site; c'est une action de référencement naturel */
+ text-indent: -5000px;
+}
+
+ul#menu {
+    list-style: none;
+    h: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    /* l'image de fond est répétée horizontalement  */
+    background: url(../img/bg_menu.gif) repeat-x 0 -25px;   
+}
+
+div#contenu {
+    padding: 0 30px 0 100px;
+    /* on créé un espace à gauche et un espace à gauche et un espace en haut */
+    background: url(../img/bg_page.gif) no-repeat 15px 15px;
+}
+
+ul#menu li {
+    float: left;
+    text-align: center;
+}
+
+ul#menu li a {
+    /* l'élément la boîte */
+    display: block;
+    width: 130px;
+    line-height: 25px;
+    /* la typo  */
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 1.2em;
+    /* épaisseur de typo bold = gras */
+    /* epaisseur de typo bold = gras */
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+ }
+
+ ul#menu li a:hover {
+     background: url(../img/bg_menu.gif) repeat-x 0 0;
+ }
+
+
+div#contenu h2 {
+    padding-left: 25px;
+    background: url(../img/little_apple.gif) no-repeat left bottom;
+    border-bottom: 1px solid #9b2;
+    line-height: 25px;
+    font-size: 1.4em;
+    color:#9b2;
+}
+
+  div#contenu h3 {
+    margin-left: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid #9b2;
+    border-left: 3px solid #9b2 ;
+    color: #9b2;
+}
+
+ div#contenu p {
+     text-align: justify;
+     text-indent: 2em;
+     line-height: 1.7em;
+ }
+
+ div#contenu blockquote {
+     border-left: 5px solid #9b2;
+     padding-left: 10px;
+
+ }
+ p#footer {
+     margin: 0;
+     padding-right: 10px;
+     line-height: 30px;
+     text-align: right;
+     color: #8a0;
+ }
